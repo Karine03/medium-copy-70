@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  color: #7F7F7F;
+}
+
+h1, h2 {
+  font-family: "Roboto Slab";
+}
+
+
+.banner {
+  background-image: url("https://unsplash.it/900/400");
+  padding: 200px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.container {
+  max-width: 700px;
+  margin: 30px auto;
+}
+
+
+.link-green {
+  text-decoration: none;
+  color: #7F7F7F;
+  font-family: "Roboto Slab";
+  background-color: #E0FEED;
+}
+
+.link-green:hover {
+  background-color: #29FFA2;
+}
+
+@media (max-width: 770px) {
+  .container {
+    width: 500px;
+  }
+}
+
+
+@media (max-width: 440px) {
+  .container {
+    width: 300px;
+  }
+  .banner {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
